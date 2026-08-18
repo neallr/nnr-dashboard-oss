@@ -153,6 +153,28 @@ The `build_mock.js` in each folder is the **executable spec** for step 2/3: it s
 fields each visual reads and how they map to the field wells. Point it at the synthetic sample to see
 the shape; swap in your own extract to see your data.
 
+### Two ways to connect your data
+
+The `dashboard_data.json` object is just a convenient **contract** — it is *not* required at runtime.
+The visuals only ever read the Power BI `dataView` you bind, so pick whichever path fits your setup:
+
+- **Connect directly to your data source (recommended — skip the JSON entirely).** If you have a
+  proper hosting/modelling environment — a Power BI semantic model, a static/web app that embeds the
+  visuals, DirectQuery/Import over SQL, Dataverse, Fabric, a warehouse, etc. — point the model straight
+  at your source and expose columns named like each visual's data roles (see **[DATA.md](DATA.md)**).
+  There is **no need to materialise a `dashboard_data.json` file** at all; the contract just documents
+  the shapes those columns should have.
+
+- **Use an intermediate JSON (only if you can't connect directly).** If you must stage the data as a
+  `dashboard_data.json` file, treat it as sensitive: **store it in a protected/permissioned location —
+  e.g. a restricted SharePoint document library or OneDrive folder — not a public share, a repo, or an
+  open file path.** Grant access only to the people who need it, and connect Power BI to that protected
+  location. Never commit it (the repo `.gitignore` already blocks `dashboard_data.json` and similar
+  exports so it can't be pushed by accident).
+
+Either way, the *only* thing this repo ships is the visual code + a **synthetic** sample — your real
+data stays in your controlled environment.
+
 ---
 
 ## Security / what was scrubbed

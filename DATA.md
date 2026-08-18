@@ -161,3 +161,10 @@ uncommitted, blocked, target, topn:[ { acct, nm, lnk, amt, own, stage } ] } }`.
    `NNRSummary/build_mock.js`).
 4. Bind field wells per visual. Run `node tools/gen_sample_data.js` + `npm run mock` in any visual to
    validate your understanding of the shape end-to-end.
+
+> **You don't have to produce a JSON file at all.** This contract only documents the *shapes* the
+> visuals expect. If you have a hosting/modelling environment (Power BI semantic model, static/web app,
+> DirectQuery/Import over SQL, Dataverse, Fabric, a warehouse…), connect it **directly** to your source
+> and expose columns named like the data roles — skip `dashboard_data.json` entirely. Only stage an
+> intermediate JSON if you can't connect directly, and if you do, keep it in a **protected/permissioned
+> location (e.g. a restricted SharePoint library or OneDrive folder), never a public share or repo.**
