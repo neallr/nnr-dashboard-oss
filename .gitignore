@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# per-visual build / dev artifacts
+**/.tmp/
+**/tmp/
+**/testbuild/
+**/.api/
+visuals/**/dist/
+webpack.statistics*.html
+*.log
+.vscode/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------------------------
+# NEVER commit real data or any live feed. Only the SYNTHETIC sample is allowed.
+# The real dashboard_data.json (and any export from your model) must stay out.
+# ---------------------------------------------------------------------------
+**/dashboard_data.json
+**/nnr_export.json
+**/territory_targets.json
+**/facts_*.json
+data/
+!sample/sample_dashboard_data.json
+
+# The prebuilt, shareable binaries DO live in /dist at the repo root — keep them.
+!dist/
+!dist/*.pbiviz

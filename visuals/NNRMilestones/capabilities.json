@@ -1,0 +1,675 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "Milestone Id",
+      "name": "id",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Due Date",
+      "name": "due",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Due Month",
+      "name": "duemo",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Period Key",
+      "name": "pk",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Non-Recurring",
+      "name": "nonrec",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "TPID",
+      "name": "tpid",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Account",
+      "name": "acct",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Territory",
+      "name": "terr",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "ATU",
+      "name": "atu",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Sales Unit",
+      "name": "su",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Segment",
+      "name": "seg",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Owner",
+      "name": "own",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Owner Manager",
+      "name": "mgr",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Owner Group",
+      "name": "grp",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Sales Stage",
+      "name": "stage",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Milestone Status",
+      "name": "st",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Category",
+      "name": "cat",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Commitment Flag",
+      "name": "cf",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Commitment",
+      "name": "commitment",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Strategic Pillar",
+      "name": "sp",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Super Pillar",
+      "name": "ssp",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Milestone Name",
+      "name": "nm",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Workload",
+      "name": "wl",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MSX Link",
+      "name": "link",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MACC",
+      "name": "macc",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "High Consuming",
+      "name": "hc",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "ACR Tier",
+      "name": "acr",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Month Amount",
+      "name": "m_amt",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Month CP",
+      "name": "m_cp",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Month BL",
+      "name": "m_bl",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Month UCP",
+      "name": "m_ucp",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Month QP",
+      "name": "m_qp",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Month NQ",
+      "name": "m_nq",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Quarter Amount",
+      "name": "q_amt",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Quarter CP",
+      "name": "q_cp",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Quarter BL",
+      "name": "q_bl",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Quarter UCP",
+      "name": "q_ucp",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Quarter QP",
+      "name": "q_qp",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Quarter NQ",
+      "name": "q_nq",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Month CP DoD",
+      "name": "m_cp_dod",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Month CP WoW",
+      "name": "m_cp_wow",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Month UCP DoD",
+      "name": "m_ucp_dod",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Month UCP WoW",
+      "name": "m_ucp_wow",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Quarter CP DoD",
+      "name": "q_cp_dod",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Quarter CP WoW",
+      "name": "q_cp_wow",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Quarter UCP DoD",
+      "name": "q_ucp_dod",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Quarter UCP WoW",
+      "name": "q_ucp_wow",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Month BL DoD",
+      "name": "m_bl_dod",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Month BL WoW",
+      "name": "m_bl_wow",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Quarter BL DoD",
+      "name": "q_bl_dod",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Quarter BL WoW",
+      "name": "q_bl_wow",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Commitment Prev DoD",
+      "name": "commitment_prev_dod",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Status Prev DoD",
+      "name": "st_prev_dod",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Due Prev DoD",
+      "name": "due_prev_dod",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Section",
+      "name": "sec",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Was Status",
+      "name": "was",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Departure Reason",
+      "name": "reason",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Last Pipeline",
+      "name": "last_pipe",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Pipeline (prev)",
+      "name": "pipe_prev",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "From Period",
+      "name": "fromp",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "From Month",
+      "name": "fromm",
+      "kind": "Grouping"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "table": {
+        "rows": {
+          "select": [
+            {
+              "for": {
+                "in": "id"
+              }
+            },
+            {
+              "for": {
+                "in": "due"
+              }
+            },
+            {
+              "for": {
+                "in": "duemo"
+              }
+            },
+            {
+              "for": {
+                "in": "pk"
+              }
+            },
+            {
+              "for": {
+                "in": "nonrec"
+              }
+            },
+            {
+              "for": {
+                "in": "tpid"
+              }
+            },
+            {
+              "for": {
+                "in": "acct"
+              }
+            },
+            {
+              "for": {
+                "in": "terr"
+              }
+            },
+            {
+              "for": {
+                "in": "atu"
+              }
+            },
+            {
+              "for": {
+                "in": "su"
+              }
+            },
+            {
+              "for": {
+                "in": "seg"
+              }
+            },
+            {
+              "for": {
+                "in": "own"
+              }
+            },
+            {
+              "for": {
+                "in": "mgr"
+              }
+            },
+            {
+              "for": {
+                "in": "grp"
+              }
+            },
+            {
+              "for": {
+                "in": "stage"
+              }
+            },
+            {
+              "for": {
+                "in": "st"
+              }
+            },
+            {
+              "for": {
+                "in": "cat"
+              }
+            },
+            {
+              "for": {
+                "in": "cf"
+              }
+            },
+            {
+              "for": {
+                "in": "commitment"
+              }
+            },
+            {
+              "for": {
+                "in": "sp"
+              }
+            },
+            {
+              "for": {
+                "in": "ssp"
+              }
+            },
+            {
+              "for": {
+                "in": "nm"
+              }
+            },
+            {
+              "for": {
+                "in": "wl"
+              }
+            },
+            {
+              "for": {
+                "in": "link"
+              }
+            },
+            {
+              "for": {
+                "in": "macc"
+              }
+            },
+            {
+              "for": {
+                "in": "hc"
+              }
+            },
+            {
+              "for": {
+                "in": "acr"
+              }
+            },
+            {
+              "for": {
+                "in": "m_amt"
+              }
+            },
+            {
+              "for": {
+                "in": "m_cp"
+              }
+            },
+            {
+              "for": {
+                "in": "m_bl"
+              }
+            },
+            {
+              "for": {
+                "in": "m_ucp"
+              }
+            },
+            {
+              "for": {
+                "in": "m_qp"
+              }
+            },
+            {
+              "for": {
+                "in": "m_nq"
+              }
+            },
+            {
+              "for": {
+                "in": "q_amt"
+              }
+            },
+            {
+              "for": {
+                "in": "q_cp"
+              }
+            },
+            {
+              "for": {
+                "in": "q_bl"
+              }
+            },
+            {
+              "for": {
+                "in": "q_ucp"
+              }
+            },
+            {
+              "for": {
+                "in": "q_qp"
+              }
+            },
+            {
+              "for": {
+                "in": "q_nq"
+              }
+            },
+            {
+              "for": {
+                "in": "m_cp_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "m_cp_wow"
+              }
+            },
+            {
+              "for": {
+                "in": "m_ucp_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "m_ucp_wow"
+              }
+            },
+            {
+              "for": {
+                "in": "q_cp_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "q_cp_wow"
+              }
+            },
+            {
+              "for": {
+                "in": "q_ucp_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "q_ucp_wow"
+              }
+            },
+            {
+              "for": {
+                "in": "m_bl_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "m_bl_wow"
+              }
+            },
+            {
+              "for": {
+                "in": "q_bl_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "q_bl_wow"
+              }
+            },
+            {
+              "for": {
+                "in": "commitment_prev_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "st_prev_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "due_prev_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "sec"
+              }
+            },
+            {
+              "for": {
+                "in": "was"
+              }
+            },
+            {
+              "for": {
+                "in": "reason"
+              }
+            },
+            {
+              "for": {
+                "in": "last_pipe"
+              }
+            },
+            {
+              "for": {
+                "in": "pipe_prev"
+              }
+            },
+            {
+              "for": {
+                "in": "fromp"
+              }
+            },
+            {
+              "for": {
+                "in": "fromm"
+              }
+            }
+          ],
+          "dataReductionAlgorithm": {
+            "window": {
+              "count": 30000
+            }
+          }
+        }
+      }
+    }
+  ],
+  "objects": {
+    "display": {
+      "displayName": "Display",
+      "properties": {
+        "scope": {
+          "displayName": "Default period scope",
+          "description": "Which quarter the milestone table opens on (Q1-Q4).",
+          "type": {
+            "enumeration": [
+              {
+                "value": "q1",
+                "displayName": "Q1"
+              },
+              {
+                "value": "q2",
+                "displayName": "Q2"
+              },
+              {
+                "value": "q3",
+                "displayName": "Q3"
+              },
+              {
+                "value": "q4",
+                "displayName": "Q4"
+              }
+            ]
+          }
+        },
+        "reveal": {
+          "displayName": "Reveal restricted",
+          "description": "Show PSNS/NIGov restricted customer identities unmasked (PSNS-team dashboard only). Default off = masked.",
+          "type": { "bool": true }
+        }
+      }
+    },
+    "persist": {
+      "properties": {
+        "s": {
+          "type": {
+            "text": true
+          }
+        }
+      }
+    }
+  },
+  "privileges": []
+}

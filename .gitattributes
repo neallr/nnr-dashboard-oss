@@ -1,0 +1,5 @@
+# Normalize line endings across platforms; keep binaries intact.
+* text=auto eol=lf
+*.pbiviz binary
+*.png binary
+*.ico binary

@@ -1,0 +1,62 @@
+{
+    "dataRoles": [
+        { "displayName": "Quarter", "name": "quarter", "kind": "Grouping" },
+        { "displayName": "Month Index", "name": "monthIndex", "kind": "Grouping" },
+        { "displayName": "Month Label", "name": "monthLabel", "kind": "Grouping" },
+        { "displayName": "Segment", "name": "segment", "kind": "Grouping" },
+        { "displayName": "Unit", "name": "unit", "kind": "Grouping" },
+        { "displayName": "Group", "name": "group", "kind": "Grouping" },
+        { "displayName": "Territory", "name": "territory", "kind": "Grouping" },
+        { "displayName": "Unit Budget", "name": "unitBudget", "kind": "Measure" },
+        { "displayName": "Budget", "name": "budget", "kind": "Measure" },
+        { "displayName": "Committed", "name": "committed", "kind": "Measure" },
+        { "displayName": "Uncommitted", "name": "uncommitted", "kind": "Measure" },
+        { "displayName": "Blocked", "name": "blocked", "kind": "Measure" },
+        { "displayName": "Official Target", "name": "offTarget", "kind": "Measure" },
+        { "displayName": "Official Committed", "name": "offCommitted", "kind": "Measure" },
+        { "displayName": "Official Blocked", "name": "offBlocked", "kind": "Measure" },
+        { "displayName": "Official Uncommitted", "name": "offUncommitted", "kind": "Measure" }
+    ],
+    "objects": {
+        "bridge": {
+            "properties": {
+                "confCommitted": { "type": { "numeric": true } },
+                "confBlocked": { "type": { "numeric": true } },
+                "confUncommitted": { "type": { "numeric": true } }
+            }
+        },
+        "persist": {
+            "properties": {
+                "s": { "type": { "text": true } }
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "table": {
+                "rows": {
+                    "select": [
+                        { "for": { "in": "quarter" } },
+                        { "for": { "in": "monthIndex" } },
+                        { "for": { "in": "monthLabel" } },
+                        { "for": { "in": "segment" } },
+                        { "for": { "in": "unit" } },
+                        { "for": { "in": "group" } },
+                        { "for": { "in": "territory" } },
+                        { "for": { "in": "unitBudget" } },
+                        { "for": { "in": "budget" } },
+                        { "for": { "in": "committed" } },
+                        { "for": { "in": "uncommitted" } },
+                        { "for": { "in": "blocked" } },
+                        { "for": { "in": "offTarget" } },
+                        { "for": { "in": "offCommitted" } },
+                        { "for": { "in": "offBlocked" } },
+                        { "for": { "in": "offUncommitted" } }
+                    ],
+                    "dataReductionAlgorithm": { "window": { "count": 30000 } }
+                }
+            }
+        }
+    ],
+    "privileges": []
+}

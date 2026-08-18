@@ -1,0 +1,5 @@
+{"visual":{"name":"nNRHygiene","displayName":"NNRHygiene","guid":"nNRHygienea8129ba6a2044d5d94a79f9643dbd0ee","visualClassName":"Visual","version":"1.0.18.0","description":"UKI NNR Pipeline Hygiene","supportUrl":"https://example.com","gitHubUrl":"https://example.com"},"apiVersion":"5.11.0","author":{"name":"UKI NNR","email":"nnr@example.com"},"assets":{"icon":"assets/icon.png"},"externalJS":null,"style":"style/visual.less","capabilities":"capabilities.json","dependencies":null,"stringResources":[],"version":"1.0.18.0"}
+
+
+
+

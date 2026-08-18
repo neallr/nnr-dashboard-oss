@@ -1,0 +1,43 @@
+{
+    "dataRoles": [
+        { "displayName": "Category", "name": "category", "kind": "Grouping" },
+        { "displayName": "Category Key", "name": "categoryKey", "kind": "Grouping" },
+        { "displayName": "Category Order", "name": "categoryOrder", "kind": "Grouping" },
+        { "displayName": "Milestone Id", "name": "id", "kind": "Grouping" },
+        { "displayName": "Account", "name": "account", "kind": "Grouping" },
+        { "displayName": "Due", "name": "due", "kind": "Grouping" },
+        { "displayName": "Due Raw", "name": "dueRaw", "kind": "Grouping" },
+        { "displayName": "Status", "name": "status", "kind": "Grouping" },
+        { "displayName": "Owner", "name": "owner", "kind": "Grouping" },
+        { "displayName": "Owner Name", "name": "ownerName", "kind": "Grouping" },
+        { "displayName": "Owner First", "name": "ownerFirst", "kind": "Grouping" },
+        { "displayName": "Owner UPN", "name": "ownerUpn", "kind": "Grouping" },
+        { "displayName": "MSX Url", "name": "msx", "kind": "Grouping" },
+        { "displayName": "Usage", "name": "usage", "kind": "Grouping" },
+        { "displayName": "Sales Unit", "name": "unit", "kind": "Grouping" },
+        { "displayName": "Owner Manager", "name": "ownerManager", "kind": "Grouping" },
+        { "displayName": "Owner Manager Name", "name": "ownerManagerName", "kind": "Grouping" },
+        { "displayName": "TPID", "name": "tpid", "kind": "Grouping" },
+        { "displayName": "Territory", "name": "territory", "kind": "Grouping" }
+    ],
+    "dataViewMappings": [
+        { "table": { "rows": { "select": [
+            { "for": { "in": "category" } }, { "for": { "in": "categoryKey" } }, { "for": { "in": "categoryOrder" } },
+            { "for": { "in": "id" } }, { "for": { "in": "account" } }, { "for": { "in": "due" } },
+            { "for": { "in": "dueRaw" } },
+            { "for": { "in": "status" } }, { "for": { "in": "owner" } },
+            { "for": { "in": "ownerName" } }, { "for": { "in": "ownerFirst" } }, { "for": { "in": "ownerUpn" } },
+            { "for": { "in": "msx" } }, { "for": { "in": "usage" } }, { "for": { "in": "unit" } },
+            { "for": { "in": "ownerManager" } }, { "for": { "in": "ownerManagerName" } },
+            { "for": { "in": "tpid" } }, { "for": { "in": "territory" } }
+        ], "dataReductionAlgorithm": { "window": { "count": 30000 } } } } }
+    ],
+    "objects": {
+        "persist": {
+            "properties": {
+                "s": { "type": { "text": true } }
+            }
+        }
+    },
+    "privileges": []
+}

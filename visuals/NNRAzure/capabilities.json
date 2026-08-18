@@ -1,0 +1,47 @@
+{
+    "dataRoles": [
+        { "displayName": "Section", "name": "section", "kind": "Grouping" },
+        { "displayName": "Label", "name": "label", "kind": "Grouping" },
+        { "displayName": "Stage", "name": "stage", "kind": "Grouping" },
+        { "displayName": "Run Label", "name": "runLabel", "kind": "Grouping" },
+        { "displayName": "Snap Label", "name": "snapLabel", "kind": "Grouping" },
+        { "displayName": "DoD Date", "name": "dodDate", "kind": "Grouping" },
+        { "displayName": "WoW Date", "name": "wowDate", "kind": "Grouping" },
+        { "displayName": "Measured", "name": "measured", "kind": "Grouping" },
+        { "displayName": "Target", "name": "target", "kind": "Grouping" },
+        { "displayName": "Committed", "name": "cp", "kind": "Grouping" },
+        { "displayName": "Blocked", "name": "bl", "kind": "Grouping" },
+        { "displayName": "Uncommitted", "name": "ucp", "kind": "Grouping" },
+        { "displayName": "Qualified", "name": "qp", "kind": "Grouping" },
+        { "displayName": "DoD", "name": "dod", "kind": "Grouping" },
+        { "displayName": "WoW", "name": "wow", "kind": "Grouping" }
+    ],
+    "dataViewMappings": [
+        { "table": { "rows": { "select": [
+            { "for": { "in": "section" } },
+            { "for": { "in": "label" } },
+            { "for": { "in": "stage" } },
+            { "for": { "in": "runLabel" } },
+            { "for": { "in": "snapLabel" } },
+            { "for": { "in": "dodDate" } },
+            { "for": { "in": "wowDate" } },
+            { "for": { "in": "measured" } },
+            { "for": { "in": "target" } },
+            { "for": { "in": "cp" } },
+            { "for": { "in": "bl" } },
+            { "for": { "in": "ucp" } },
+            { "for": { "in": "qp" } },
+            { "for": { "in": "dod" } },
+            { "for": { "in": "wow" } }
+        ], "dataReductionAlgorithm": { "window": { "count": 30000 } } } } }
+    ],
+    "objects": {
+        "persist": {
+            "properties": {
+                "s": { "type": { "text": true } }
+            }
+        }
+    },
+    "privileges": []
+}
+

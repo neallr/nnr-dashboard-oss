@@ -1,0 +1,20 @@
+{
+    "dataRoles": [
+        { "displayName": "Chunk Index", "name": "idx", "kind": "Grouping" },
+        { "displayName": "Chunk", "name": "chunk", "kind": "Grouping" }
+    ],
+    "objects": {
+        "persist": { "properties": { "s": { "type": { "text": true } } } }
+    },
+    "dataViewMappings": [
+        {
+            "table": {
+                "rows": {
+                    "select": [ { "for": { "in": "idx" } }, { "for": { "in": "chunk" } } ],
+                    "dataReductionAlgorithm": { "window": { "count": 1000 } }
+                }
+            }
+        }
+    ],
+    "privileges": []
+}

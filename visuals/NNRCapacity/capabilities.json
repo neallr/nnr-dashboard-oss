@@ -1,0 +1,37 @@
+{
+    "dataRoles": [
+        { "displayName": "Milestone Id", "name": "id", "kind": "Grouping" },
+        { "displayName": "Account", "name": "account", "kind": "Grouping" },
+        { "displayName": "Monthly Usage", "name": "usage", "kind": "Grouping" },
+        { "displayName": "Due Date", "name": "due", "kind": "Grouping" },
+        { "displayName": "Due Raw", "name": "due_raw", "kind": "Grouping" },
+        { "displayName": "Owner", "name": "owner", "kind": "Grouping" },
+        { "displayName": "Status", "name": "status", "kind": "Grouping" },
+        { "displayName": "Committed", "name": "committed", "kind": "Grouping" },
+        { "displayName": "MSX Url", "name": "msx", "kind": "Grouping" },
+        { "displayName": "UAT Url", "name": "uat", "kind": "Grouping" },
+        { "displayName": "Created Raw", "name": "created_raw", "kind": "Grouping" },
+        { "displayName": "Azure Region", "name": "region", "kind": "Grouping" },
+        { "displayName": "TPID", "name": "tpid", "kind": "Grouping" },
+        { "displayName": "Territory", "name": "territory", "kind": "Grouping" }
+    ],
+    "dataViewMappings": [
+        { "table": { "rows": { "select": [
+            { "for": { "in": "id" } }, { "for": { "in": "account" } }, { "for": { "in": "usage" } },
+            { "for": { "in": "due" } }, { "for": { "in": "due_raw" } }, { "for": { "in": "owner" } },
+            { "for": { "in": "status" } }, { "for": { "in": "committed" } }, { "for": { "in": "msx" } },
+            { "for": { "in": "uat" } },
+            { "for": { "in": "created_raw" } }, { "for": { "in": "region" } },
+            { "for": { "in": "tpid" } }, { "for": { "in": "territory" } }
+        ], "dataReductionAlgorithm": { "window": { "count": 30000 } } } } }
+    ],
+    "objects": {
+        "persist": {
+            "properties": {
+                "s": { "type": { "text": true } }
+            }
+        }
+    },
+    "privileges": []
+}
+

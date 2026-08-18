@@ -1,0 +1,825 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "Period",
+      "name": "period",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Period Order",
+      "name": "periodOrder",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Quarter",
+      "name": "quarter",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Sales Unit",
+      "name": "su",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Group",
+      "name": "grp",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Territory",
+      "name": "territory",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Terr Committed",
+      "name": "tCommitted",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Terr Blocked",
+      "name": "tBlocked",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Terr Uncommitted",
+      "name": "tUncommitted",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Terr Non-Qual",
+      "name": "tNonqual",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Terr Target",
+      "name": "tTarget",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Unit Target",
+      "name": "tSuTarget",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Terr Actuals Basis",
+      "name": "tCab",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Terr Actuals Target Basis",
+      "name": "tCabt",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Terr WoW",
+      "name": "tWow",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Unit DoD Committed",
+      "name": "tSuDodC",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Unit WoW Committed",
+      "name": "tSuWowC",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Unit DoD Uncommitted",
+      "name": "tSuDodU",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Unit WoW Uncommitted",
+      "name": "tSuWowU",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Unit DoD Non-Qual",
+      "name": "tSuDodN",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Unit WoW Non-Qual",
+      "name": "tSuWowN",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Unit WoW Blocked",
+      "name": "tSuWowB",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Official Target",
+      "name": "offTarget",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Official Committed",
+      "name": "offCommitted",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Official Blocked",
+      "name": "offBlocked",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Official Uncommitted",
+      "name": "offUncommitted",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Official DoD Committed",
+      "name": "offDodC",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Official WoW Committed",
+      "name": "offWowC",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Official DoD Uncommitted",
+      "name": "offDodU",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Official WoW Uncommitted",
+      "name": "offWowU",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Official WoW Blocked",
+      "name": "offWowB",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "Section",
+      "name": "section",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Id",
+      "name": "ms_id",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Account",
+      "name": "ms_acct",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS TPID",
+      "name": "ms_tpid",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Name",
+      "name": "ms_nm",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Link",
+      "name": "ms_link",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Commit Flag",
+      "name": "ms_cf",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Status",
+      "name": "ms_st",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Due",
+      "name": "ms_due",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Stage",
+      "name": "ms_stage",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Segment",
+      "name": "ms_seg",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Period Key",
+      "name": "ms_pk",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Due Month",
+      "name": "ms_duemo",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Unit",
+      "name": "ms_u",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Group",
+      "name": "ms_gname",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Territory",
+      "name": "ms_tname",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Month CP",
+      "name": "ms_m_cp",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Month BL",
+      "name": "ms_m_bl",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Month UCP",
+      "name": "ms_m_ucp",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Month QP",
+      "name": "ms_m_qp",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Month NQ",
+      "name": "ms_m_nq",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Qtr CP",
+      "name": "ms_q_cp",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Qtr BL",
+      "name": "ms_q_bl",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Qtr UCP",
+      "name": "ms_q_ucp",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Qtr QP",
+      "name": "ms_q_qp",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Qtr NQ",
+      "name": "ms_q_nq",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Month CP DoD",
+      "name": "ms_m_cp_dod",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Month CP WoW",
+      "name": "ms_m_cp_wow",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Month UCP DoD",
+      "name": "ms_m_ucp_dod",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Month UCP WoW",
+      "name": "ms_m_ucp_wow",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Qtr CP DoD",
+      "name": "ms_q_cp_dod",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Qtr CP WoW",
+      "name": "ms_q_cp_wow",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Qtr UCP DoD",
+      "name": "ms_q_ucp_dod",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Qtr UCP WoW",
+      "name": "ms_q_ucp_wow",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Month BL DoD",
+      "name": "ms_m_bl_dod",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Month BL WoW",
+      "name": "ms_m_bl_wow",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Qtr BL DoD",
+      "name": "ms_q_bl_dod",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Qtr BL WoW",
+      "name": "ms_q_bl_wow",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "MS Commit Prev",
+      "name": "ms_commit_prev",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Status Prev",
+      "name": "ms_st_prev",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "MS Due Prev",
+      "name": "ms_due_prev",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "offDodN",
+      "name": "offDodN",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "offWowN",
+      "name": "offWowN",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "ms_m_nq_dod",
+      "name": "ms_m_nq_dod",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "ms_m_nq_wow",
+      "name": "ms_m_nq_wow",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "ms_q_nq_dod",
+      "name": "ms_q_nq_dod",
+      "kind": "Measure"
+    },
+    {
+      "displayName": "ms_q_nq_wow",
+      "name": "ms_q_nq_wow",
+      "kind": "Measure"
+    }
+  ],
+  "objects": {
+    "page": {
+      "properties": {
+        "pageKey": {
+          "type": {
+            "enumeration": [
+              {
+                "value": "progress",
+                "displayName": "NNR Progress"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "persist": {
+      "properties": {
+        "s": {
+          "type": {
+            "text": true
+          }
+        }
+      }
+    }
+  },
+  "dataViewMappings": [
+    {
+      "table": {
+        "rows": {
+          "select": [
+            {
+              "for": {
+                "in": "period"
+              }
+            },
+            {
+              "for": {
+                "in": "periodOrder"
+              }
+            },
+            {
+              "for": {
+                "in": "quarter"
+              }
+            },
+            {
+              "for": {
+                "in": "su"
+              }
+            },
+            {
+              "for": {
+                "in": "grp"
+              }
+            },
+            {
+              "for": {
+                "in": "territory"
+              }
+            },
+            {
+              "for": {
+                "in": "tCommitted"
+              }
+            },
+            {
+              "for": {
+                "in": "tBlocked"
+              }
+            },
+            {
+              "for": {
+                "in": "tUncommitted"
+              }
+            },
+            {
+              "for": {
+                "in": "tNonqual"
+              }
+            },
+            {
+              "for": {
+                "in": "tTarget"
+              }
+            },
+            {
+              "for": {
+                "in": "tSuTarget"
+              }
+            },
+            {
+              "for": {
+                "in": "tWow"
+              }
+            },
+            {
+              "for": {
+                "in": "tSuDodC"
+              }
+            },
+            {
+              "for": {
+                "in": "tSuWowC"
+              }
+            },
+            {
+              "for": {
+                "in": "tSuDodU"
+              }
+            },
+            {
+              "for": {
+                "in": "tSuWowU"
+              }
+            },
+            {
+              "for": {
+                "in": "tSuDodN"
+              }
+            },
+            {
+              "for": {
+                "in": "tSuWowN"
+              }
+            },
+            {
+              "for": {
+                "in": "tCab"
+              }
+            },
+            {
+              "for": {
+                "in": "tCabt"
+              }
+            },
+            {
+              "for": {
+                "in": "tSuWowB"
+              }
+            },
+            {
+              "for": {
+                "in": "offTarget"
+              }
+            },
+            {
+              "for": {
+                "in": "offCommitted"
+              }
+            },
+            {
+              "for": {
+                "in": "offBlocked"
+              }
+            },
+            {
+              "for": {
+                "in": "offUncommitted"
+              }
+            },
+            {
+              "for": {
+                "in": "offDodC"
+              }
+            },
+            {
+              "for": {
+                "in": "offWowC"
+              }
+            },
+            {
+              "for": {
+                "in": "offDodU"
+              }
+            },
+            {
+              "for": {
+                "in": "offWowU"
+              }
+            },
+            {
+              "for": {
+                "in": "offWowB"
+              }
+            },
+            {
+              "for": {
+                "in": "section"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_id"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_acct"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_tpid"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_nm"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_link"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_cf"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_st"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_due"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_stage"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_seg"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_pk"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_duemo"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_u"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_gname"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_tname"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_m_cp"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_m_bl"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_m_ucp"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_m_qp"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_m_nq"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_q_cp"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_q_bl"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_q_ucp"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_q_qp"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_q_nq"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_m_cp_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_m_cp_wow"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_m_ucp_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_m_ucp_wow"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_q_cp_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_q_cp_wow"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_q_ucp_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_q_ucp_wow"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_m_bl_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_m_bl_wow"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_q_bl_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_q_bl_wow"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_commit_prev"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_st_prev"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_due_prev"
+              }
+            },
+            {
+              "for": {
+                "in": "offDodN"
+              }
+            },
+            {
+              "for": {
+                "in": "offWowN"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_m_nq_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_m_nq_wow"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_q_nq_dod"
+              }
+            },
+            {
+              "for": {
+                "in": "ms_q_nq_wow"
+              }
+            }
+          ],
+          "dataReductionAlgorithm": {
+            "window": {
+              "count": 30000
+            }
+          }
+        }
+      }
+    }
+  ],
+  "privileges": []
+}

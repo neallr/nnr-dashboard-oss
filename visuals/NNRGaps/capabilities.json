@@ -1,0 +1,93 @@
+{
+    "dataRoles": [
+        { "displayName": "Segment", "name": "segment", "kind": "Grouping" },
+        { "displayName": "Subsegment", "name": "subsegment", "kind": "Grouping" },
+        { "displayName": "Territory", "name": "territory", "kind": "Grouping" },
+        { "displayName": "Jul $K", "name": "julk", "kind": "Grouping" },
+        { "displayName": "Aug $K", "name": "augk", "kind": "Grouping" },
+        { "displayName": "Sep $K", "name": "sepk", "kind": "Grouping" },
+        { "displayName": "Oct $K", "name": "octk", "kind": "Grouping" },
+        { "displayName": "Nov $K", "name": "novk", "kind": "Grouping" },
+        { "displayName": "Dec $K", "name": "deck", "kind": "Grouping" },
+        { "displayName": "Jan $K", "name": "jank", "kind": "Grouping" },
+        { "displayName": "Feb $K", "name": "febk", "kind": "Grouping" },
+        { "displayName": "Mar $K", "name": "mark", "kind": "Grouping" },
+        { "displayName": "Apr $K", "name": "aprk", "kind": "Grouping" },
+        { "displayName": "May $K", "name": "mayk", "kind": "Grouping" },
+        { "displayName": "Jun $K", "name": "junk", "kind": "Grouping" },
+        { "displayName": "Q1 $K", "name": "q1k", "kind": "Grouping" },
+        { "displayName": "Q2 $K", "name": "q2k", "kind": "Grouping" },
+        { "displayName": "Q3 $K", "name": "q3k", "kind": "Grouping" },
+        { "displayName": "Q4 $K", "name": "q4k", "kind": "Grouping" },
+        { "displayName": "Jul WoW", "name": "julwow", "kind": "Grouping" },
+        { "displayName": "Aug WoW", "name": "augwow", "kind": "Grouping" },
+        { "displayName": "Sep WoW", "name": "sepwow", "kind": "Grouping" },
+        { "displayName": "Oct WoW", "name": "octwow", "kind": "Grouping" },
+        { "displayName": "Nov WoW", "name": "novwow", "kind": "Grouping" },
+        { "displayName": "Dec WoW", "name": "decwow", "kind": "Grouping" },
+        { "displayName": "Jan WoW", "name": "janwow", "kind": "Grouping" },
+        { "displayName": "Feb WoW", "name": "febwow", "kind": "Grouping" },
+        { "displayName": "Mar WoW", "name": "marwow", "kind": "Grouping" },
+        { "displayName": "Apr WoW", "name": "aprwow", "kind": "Grouping" },
+        { "displayName": "May WoW", "name": "maywow", "kind": "Grouping" },
+        { "displayName": "Jun WoW", "name": "junwow", "kind": "Grouping" },
+        { "displayName": "Q1 WoW", "name": "q1wow", "kind": "Grouping" },
+        { "displayName": "Q2 WoW", "name": "q2wow", "kind": "Grouping" },
+        { "displayName": "Q3 WoW", "name": "q3wow", "kind": "Grouping" },
+        { "displayName": "Q4 WoW", "name": "q4wow", "kind": "Grouping" },
+        { "displayName": "Jul Target", "name": "jult", "kind": "Grouping" },
+        { "displayName": "Aug Target", "name": "augt", "kind": "Grouping" },
+        { "displayName": "Sep Target", "name": "sept", "kind": "Grouping" },
+        { "displayName": "Oct Target", "name": "octt", "kind": "Grouping" },
+        { "displayName": "Nov Target", "name": "novt", "kind": "Grouping" },
+        { "displayName": "Dec Target", "name": "dect", "kind": "Grouping" },
+        { "displayName": "Jan Target", "name": "jant", "kind": "Grouping" },
+        { "displayName": "Feb Target", "name": "febt", "kind": "Grouping" },
+        { "displayName": "Mar Target", "name": "mart", "kind": "Grouping" },
+        { "displayName": "Apr Target", "name": "aprt", "kind": "Grouping" },
+        { "displayName": "May Target", "name": "mayt", "kind": "Grouping" },
+        { "displayName": "Jun Target", "name": "junt", "kind": "Grouping" },
+        { "displayName": "Q1 Target", "name": "q1t", "kind": "Grouping" },
+        { "displayName": "Q2 Target", "name": "q2t", "kind": "Grouping" },
+        { "displayName": "Q3 Target", "name": "q3t", "kind": "Grouping" },
+        { "displayName": "Q4 Target", "name": "q4t", "kind": "Grouping" },
+        { "displayName": "Jul Flag", "name": "julflag", "kind": "Grouping" },
+        { "displayName": "Q1 Flag", "name": "q1flag", "kind": "Grouping" }
+    ],
+    "dataViewMappings": [
+        {
+            "table": {
+                "rows": {
+                    "select": [
+                        { "for": { "in": "segment" } }, { "for": { "in": "subsegment" } }, { "for": { "in": "territory" } },
+                        { "for": { "in": "julk" } }, { "for": { "in": "augk" } }, { "for": { "in": "sepk" } },
+                        { "for": { "in": "octk" } }, { "for": { "in": "novk" } }, { "for": { "in": "deck" } },
+                        { "for": { "in": "jank" } }, { "for": { "in": "febk" } }, { "for": { "in": "mark" } },
+                        { "for": { "in": "aprk" } }, { "for": { "in": "mayk" } }, { "for": { "in": "junk" } },
+                        { "for": { "in": "q1k" } }, { "for": { "in": "q2k" } }, { "for": { "in": "q3k" } }, { "for": { "in": "q4k" } },
+                        { "for": { "in": "julwow" } }, { "for": { "in": "augwow" } }, { "for": { "in": "sepwow" } },
+                        { "for": { "in": "octwow" } }, { "for": { "in": "novwow" } }, { "for": { "in": "decwow" } },
+                        { "for": { "in": "janwow" } }, { "for": { "in": "febwow" } }, { "for": { "in": "marwow" } },
+                        { "for": { "in": "aprwow" } }, { "for": { "in": "maywow" } }, { "for": { "in": "junwow" } },
+                        { "for": { "in": "q1wow" } }, { "for": { "in": "q2wow" } }, { "for": { "in": "q3wow" } }, { "for": { "in": "q4wow" } },
+                        { "for": { "in": "jult" } }, { "for": { "in": "augt" } }, { "for": { "in": "sept" } },
+                        { "for": { "in": "octt" } }, { "for": { "in": "novt" } }, { "for": { "in": "dect" } },
+                        { "for": { "in": "jant" } }, { "for": { "in": "febt" } }, { "for": { "in": "mart" } },
+                        { "for": { "in": "aprt" } }, { "for": { "in": "mayt" } }, { "for": { "in": "junt" } },
+                        { "for": { "in": "q1t" } }, { "for": { "in": "q2t" } }, { "for": { "in": "q3t" } }, { "for": { "in": "q4t" } },
+                        { "for": { "in": "julflag" } }, { "for": { "in": "q1flag" } }
+                    ],
+                    "dataReductionAlgorithm": { "window": { "count": 30000 } }
+                }
+            }
+        }
+    ],
+    "objects": {
+        "persist": {
+            "properties": {
+                "s": { "type": { "text": true } }
+            }
+        }
+    },
+    "privileges": []
+}

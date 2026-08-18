@@ -1,0 +1,10 @@
+{"visual":{"name":"nNRDashboardV4","displayName":"NNRDashboard","guid":"nNRDashboardV46137dd37a1c746faaad2f08c567b93e5","visualClassName":"Visual","version":"4.17.0.0","description":"UKI NNR Dashboard — native render of the web app","supportUrl":"https://example.com","gitHubUrl":"https://example.com"},"apiVersion":"5.11.0","author":{"name":"UKI NNR","email":"nnr@example.com"},"assets":{"icon":"assets/icon.png"},"externalJS":null,"style":"style/visual.less","capabilities":"capabilities.json","dependencies":null,"stringResources":[],"version":"4.17.0.0"}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+{
+  "visual": {
+    "name": "nNRMilestones",
+    "displayName": "NNRMilestones",
+    "guid": "nNRMilestones9ec07e2824aefe8df04c",
+    "visualClassName": "Visual",
+    "version":"1.37.3.5",
+    "description": "UKI NNR Milestone detail",
+    "supportUrl": "https://example.com",
+    "gitHubUrl": "https://example.com"
+  },
+  "apiVersion": "5.11.0",
+  "author": {
+    "name": "UKI NNR",
+    "email": "nnr@example.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": [],
+  "version":"1.37.3.5"
+}
+
+
+
+
+
